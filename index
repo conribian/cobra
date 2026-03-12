@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Seleccionar Vaso</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Elegí tu vaso</h1>
+
+<div class="container">
+
+<div class="cup green" onclick="comprar('Vaso Verde')">
+Vaso Verde
+</div>
+
+<div class="cup red" onclick="comprar('Vaso Rojo')">
+Vaso Rojo
+</div>
+
+<div class="cup blue" onclick="comprar('Vaso Azul')">
+Vaso Azul
+</div>
+
+</div>
+
+<h2>Tu compra:</h2>
+<div id="compra"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
